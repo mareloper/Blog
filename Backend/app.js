@@ -15,11 +15,11 @@ app.use(cors());
 
 
 //routes declaration
-
+const usersRoutes= require("./routes/users")
 
 
 //middleware routes that handle requests
-
+app.use('/users',usersRoutes)
 
 
 module.exports = app;

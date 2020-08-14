@@ -1,0 +1,10 @@
+//registering a user api
+post http://localhost:5500/users/register 
+Content-Type: application/json
+
+{
+    "name":"maria",
+    "surname":"noah",
+    "email":"mariaNoah@gmail.com",
+    "password":"1234"
+}

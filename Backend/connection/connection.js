@@ -1,6 +1,6 @@
 const mongoose=require('mongoose');
 
-mongoose.connect('mongodb://localhost:27017/blogdb',{
+mongoose.connect('mongodb://localhost:27017/maryannBlog',{
   useNewUrlParser: true,useCreateIndex:true,useUnifiedTopology: true },
         (err) => {
           if (err) {
@@ -10,5 +10,6 @@ mongoose.connect('mongodb://localhost:27017/blogdb',{
           }
         }
       );
+
 
 module.exports= mongoose;
